@@ -1,8 +1,8 @@
-package com.interview.cardservice.exeption.handler;
+package com.interview.cardservice.exception.handler;
 
 import com.interview.cardservice.validation.ErrorResponse;
-import com.interview.cardservice.exeption.NoRecordFoundException;
-import com.interview.cardservice.exeption.ValidationFailureException;
+import com.interview.cardservice.exception.NoRecordFoundException;
+import com.interview.cardservice.exception.ValidationFailureException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

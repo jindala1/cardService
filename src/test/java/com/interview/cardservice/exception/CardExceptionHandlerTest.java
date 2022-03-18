@@ -1,8 +1,6 @@
 package com.interview.cardservice.exception;
 
-import com.interview.cardservice.exeption.handler.CardExceptionHandler;
-import com.interview.cardservice.exeption.NoRecordFoundException;
-import com.interview.cardservice.exeption.ValidationFailureException;
+import com.interview.cardservice.exception.handler.CardExceptionHandler;
 import com.interview.cardservice.validation.ErrorResponse;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

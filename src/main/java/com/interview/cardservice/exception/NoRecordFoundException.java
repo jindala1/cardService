@@ -1,4 +1,4 @@
-package com.interview.cardservice.exeption;
+package com.interview.cardservice.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

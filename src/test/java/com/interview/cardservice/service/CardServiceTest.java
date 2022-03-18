@@ -1,7 +1,7 @@
 package com.interview.cardservice.service;
 
-import com.interview.cardservice.exeption.NoRecordFoundException;
-import com.interview.cardservice.exeption.ValidationFailureException;
+import com.interview.cardservice.exception.NoRecordFoundException;
+import com.interview.cardservice.exception.ValidationFailureException;
 import com.interview.cardservice.model.CardDetails;
 import com.interview.cardservice.repository.CardRepository;
 import com.interview.cardservice.validation.CardValidation;
