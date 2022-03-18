@@ -4,7 +4,7 @@
 ## Install and run the project
 1. download/clone the project
 
-   git clone https://github.com/ajindal3/cardService.git
+   git clone https://github.com/jindala1/cardService.git
 
 
 2. Build the project using following maven command from project root folder
