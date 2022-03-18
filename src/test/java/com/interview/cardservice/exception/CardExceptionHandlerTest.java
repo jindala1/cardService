@@ -59,7 +59,7 @@ public class CardExceptionHandlerTest {
         Exception exception = mock(Exception.class);
 
         ResponseEntity<ErrorResponse> responseEntity = cardExceptionHandler
-                .globleExcpetionHandler(exception);
+                .globalExceptionHandler(exception);
 
         assertNotNull(responseEntity);
         assertEquals(responseEntity.getStatusCode(), HttpStatus.INTERNAL_SERVER_ERROR);

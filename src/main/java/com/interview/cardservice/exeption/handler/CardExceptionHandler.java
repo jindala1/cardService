@@ -44,7 +44,7 @@ public class CardExceptionHandler {
      * @return the response entity
      */
     @ExceptionHandler(Exception.class)
-    public ResponseEntity<ErrorResponse> globleExcpetionHandler(Exception ex) {
+    public ResponseEntity<ErrorResponse> globalExceptionHandler(Exception ex) {
         ErrorResponse response = new ErrorResponse();
         response.setErrorCode("API_03_ERROR");
         response.setErrorMessage(ex.getMessage());
